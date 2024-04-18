@@ -9,8 +9,16 @@
 					{
 						"type": "heading2",
 						"content": {
-							"text": "Garage"
-						}
+							"text": "The new\nGold Standard.",
+							"spans": [
+								{
+									"type": "em",
+									"start": 8,
+									"end": 21
+								}
+							]
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -20,8 +28,10 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Quis duis velit qui proident id exercitation. Officia labore voluptate proident id sunt consectetur anim velit cupidatat. Non laborum quis sunt reprehenderit ad adipisicing ea voluptate id irure reprehenderit ipsum fugiat elit esse."
-						}
+							"text": "Introducing a new way of building components and layouts that leaves everything else in the dust.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			}
@@ -82,6 +92,83 @@
 							"alt": null,
 							"__TYPE__": "ImageContent",
 							"thumbnails": {}
+						}
+					],
+					[
+						"wide",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Lorem Ipsum",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"body",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Sit reprehenderit consequat voluptate excepteur ullamco et irure culpa magna amet occaecat nisi cupidatat. Esse irure irure consequat ex esse aliquip esse dolor ut officia Lorem nisi.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"image",
+						{
+							"url": "https://images.unsplash.com/photo-1590004828948-09db7606e5ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MTMzNTAwMzJ8MA&ixlib=rb-4.0.3&q=85",
+							"alt": "sliced orange fruit on white surface",
+							"origin": {
+								"id": "92HwFhCp-MQ",
+								"url": "https://images.unsplash.com/photo-1590004828948-09db7606e5ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MTMzNTAwMzJ8MA&ixlib=rb-4.0.3&q=85",
+								"width": 3699,
+								"height": 2959
+							},
+							"width": 3699,
+							"height": 2959,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"wide",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
 						}
 					]
 				]
