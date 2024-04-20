@@ -36,7 +36,7 @@ export default async function Page({ params }: { params: Params }) {
         />
       </div>
       <div className="mx-auto">
-        <SliceZone slices={page.data.slices} components={components} />;
+        <SliceZone slices={page.data.slices} components={components} />
       </div>
     </Bounded>
   );
