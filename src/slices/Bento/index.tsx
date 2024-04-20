@@ -26,9 +26,9 @@ const Bento = ({ slice }: BentoProps): JSX.Element => {
         field={slice.primary.heading}
         components={{
           heading2: ({ children }) => (
-            <h2 className="text-balance text-center text-5xl font-medium md:text-7xl">
+            <div className="text-balance text-center text-5xl font-medium md:text-7xl">
               {children}
-            </h2>
+            </div>
           ),
           em: ({ children }) => (
             <em className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">
