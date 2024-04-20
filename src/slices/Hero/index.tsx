@@ -23,9 +23,9 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       <div className="relative">
         <StarGrid />
         {isFilled.richText(slice.primary.heading) && (
-          <h1 className="text-5-xl text-balance text-center font-medium md:text-7xl">
+          <div className="text-5-xl text-balance text-center font-medium md:text-7xl">
             <PrismicRichText field={slice.primary.heading} />
-          </h1>
+          </div>
         )}
         {isFilled.richText(slice.primary.body) && (
           <div className="mx-auto mt-6 max-w-md text-balance text-slate-300">
